@@ -10,6 +10,7 @@ import gang from "../../assets/image 22.png";
 import pinpoint from "../../assets/image 23.png";
 import vector1 from "../../assets/Vector 3.png";
 import vector2 from "../../assets/Vector 4.png";
+import vector3 from "../../assets/Vector 2.png";
 const Hero = () => {
   return (
     <div className="mx-32 my-32 flex gap-24 justify-center items-center">
@@ -66,6 +67,7 @@ const Hero = () => {
           Rebuilt for simplicity and speed, so you can spend more <br /> time
           discovering and listening to great podcasts.
         </p>
+        <img className="w-[328px] h-[30px] border-t-[8px] border-transparent opacity-220 absolute top-[337px] left-[728px]" src={vector3} alt="" />
         <div className="flex gap-5  items-center">
           <div>
           <button
