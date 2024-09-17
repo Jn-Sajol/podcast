@@ -13,9 +13,9 @@ import vector2 from "../../assets/Vector 4.png";
 import vector3 from "../../assets/Vector 2.png";
 const Hero = () => {
   return (
-    <div className="mx-32 my-32 flex gap-24 justify-center items-center">
+    <div className="mx-32 my-32 px-10 flex gap-24 justify-center items-center">
       <div className="flex gap-4">
-        <div className="">
+        <div className="p-1">
           <img src={femaleheadphone} alt="" className="block w-full" />
           <div className="mt-[-32px]">
             <h2 className="text-sm font-semibold leading-none">
