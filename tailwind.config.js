@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     backgroundColor: {
-      'custom-orange': 'rgba(255, 144, 81, 1)', // Add your custom RGB color here
+      'custom-orange': 'rgba(255, 144, 81, 1)', 
       'blue':'rgba(32, 24, 48, 1)',
       'pinkish': 'rgba(255, 248, 243, 1)',
       'newslatterbutton': 'rgba(147, 108, 221, 1)',

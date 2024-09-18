@@ -13,8 +13,8 @@ import vector2 from "../../assets/Vector 4.png";
 import vector3 from "../../assets/Vector 2.png";
 const Hero = () => {
   return (
-    <div className="mx-32 my-32 px-10 flex gap-24 justify-center items-center">
-      <div className="flex gap-4">
+    <div className="my-32 px-10 flex gap-24 ">
+      <div className="flex gap-4 ps-7">
         <div className="p-1">
           <img src={femaleheadphone} alt="" className="block w-full" />
           <div className="mt-[-32px]">
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="rightportion">
+        <div className="rightportion ">
           <div className="flex justify-center gap-4">
             <img src={vector1} alt="" />
             <img className="w-[50px] h-[50px]" src={fivek} alt="" />
@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hero-right">
+      <div className="hero-right ps-10">
         <h1 className="font-plus-jakarta-sans text-7xl font-bold leading-[80px] text-left">
           A new era of podcasting <br /> for you
         </h1>
@@ -67,7 +67,7 @@ const Hero = () => {
           Rebuilt for simplicity and speed, so you can spend more <br /> time
           discovering and listening to great podcasts.
         </p>
-        <img className="w-[328px] h-[30px] border-t-[8px] border-transparent opacity-220 absolute top-[337px] left-[728px]" src={vector3} alt="" />
+        <img className="w-[328px] h-[30px] border-t-[8px] border-transparent opacity-220 absolute top-[337px] left-[780px]" src={vector3} alt="" />
         <div className="flex gap-5  items-center">
           <div>
           <button

@@ -7,12 +7,12 @@ import Footer from './components/footer/footer'
 import Header from './components/header/header'
 import NewsLatter from './components/newsLatter/newsLatter'
 import Testimonial from './components/testimonial/testimonial'
-import Hero from './section/hero/Hero'
+// import Hero from './section/hero/Hero'
 function App() {
   return (
     <div className="root">
      <Header/>
-     <Hero/>
+     {/* <Hero/> */}
      <FeatureOne/>
      <FeatureTwo/>
      <FeatureThree/>

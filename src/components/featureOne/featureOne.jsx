@@ -8,12 +8,12 @@ const FeatureOne = () => {
   return (
     <section className="">
       <div className="mx-32 p-5 grid grid-cols-2 gap-6">
-        <div className="left">
+        <div className="left relative">
           <h2 className="font-plus-jakarta-sans text-[42px] font-bold leading-[52px] text-left">
             We are in the top <br /> padcast directories
           </h2>
           <img
-            className="w-[236px] h-[30px] top-[1085px] left-[508px] gap-0"
+            className="w-[236px] h-[30px] absolute top-[80px] left-[155px] gap-0 opacity-90"
             src={vector}
             alt=""
           />

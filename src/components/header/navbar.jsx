@@ -1,7 +1,7 @@
 import logo from '../../assets/Logo.png'
 const Navbar = () => {
   return (
-    <nav className="bg-[#FFF8F3] flex justify-between items-center py-4 px-9">
+    <nav className="bg-footerbg flex justify-between items-center py-4 px-9">
       {/* Left side - Logo */}
       <div className="flex items-center space-x-2">
         <img src={logo} alt="Logo"  />
