@@ -1,9 +1,10 @@
 import img1 from "../../assets/image 21.png";
-import img2 from "../../assets/image 22.png";
+import img2 from "../../assets/image 22@2x.png";
 import img3 from "../../assets/image 23.png";
 import img4 from "../../assets/image 24.png";
 import img5 from "../../assets/image 25.png";
 import vector from "../../assets/Vector 2 (1).png";
+// import bg from "../../assets/Ellipse 19.png";
 const FeatureOne = () => {
   return (
     <section className="">
@@ -26,7 +27,7 @@ const FeatureOne = () => {
             Listen Now
           </button>
         </div>
-        <div className="right">
+        <div className="right ">
           <div className="relative">
             <img
               src={img1}

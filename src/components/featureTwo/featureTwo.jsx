@@ -24,7 +24,7 @@ const FeatureTwo = () => {
                 <img
                   src={book}
                   alt="Education"
-                  className="object-cover w-full h-[]"
+                  className="object-cover w-full h-[720px]"
                 />
               </div>
             </div>

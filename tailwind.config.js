@@ -12,6 +12,9 @@ export default {
       'newslatterbutton': 'rgba(147, 108, 221, 1)',
       'footerbg':'rgba(255, 248, 243, 1)'
     },
+    backgroundImage: {
+      'spotybg': "url('./src/assets/Ellipse 19.png')",
+    }
   },
   plugins: [],
 }
